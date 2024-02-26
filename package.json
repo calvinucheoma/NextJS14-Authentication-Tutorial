@@ -9,19 +9,40 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "@hookform/resolvers": "^3.3.4",
+    "@nextui-org/react": "^2.2.9",
+    "@prisma/client": "^5.10.2",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/nodemailer": "^6.4.14",
+    "@types/validator": "^13.11.9",
+    "bcrypt": "^5.1.1",
+    "check-password-strength": "^2.0.7",
+    "clsx-tailwind-merge": "^1.0.4",
+    "framer-motion": "^11.0.6",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.1.0",
+    "next-auth": "^4.24.6",
+    "nodemailer": "^6.9.10",
+    "prisma": "^5.10.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-hook-form": "^7.50.1",
+    "react-toastify": "^10.0.4",
+    "validator": "^13.11.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "typescript": "^5"
   }
 }
